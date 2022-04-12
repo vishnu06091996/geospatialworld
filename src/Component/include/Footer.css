@@ -1,0 +1,32 @@
+
+/* ========== FOOTER ========== */
+
+.footer {width:100%; float:left;}
+
+.footer .ft_top {width:100%; float:left; background:#424243; padding:50px 0;}
+
+.footer .archive_blk {display:block;}
+.footer .archive_blk h3 {display:block; color:#fff; font-weight:700; font-size:18px; text-transform:uppercase; 
+padding:0 0 15px; letter-spacing:0.25px;}
+.footer .archive_blk ul {display:block;}
+.footer .archive_blk ul li {display:block; padding:0 0 10px;}
+.footer .archive_blk ul li a {display:inline-block; color:#fff; font-size:14px;}
+
+.footer .social_blk {display:block;}
+.footer .social_blk h3 {display:block; color:#fff; font-weight:700; font-size:18px; text-transform:uppercase; 
+padding:0 0 15px; letter-spacing:0.25px;}
+.footer .social_blk p {display:block; line-height:20px; font-size:15px; color:#fff; font-weight:400; letter-spacing:0.5px;}
+
+.ntSocialIcons {display:block; list-style:none; padding:20px 0 0;}
+.ntSocialIcons li {display:inline-block; margin:0 5px 0 0;}
+.ntSocialIcons li a {color:#fff; display:block; width:48px; text-align:center; height:48px; 
+font-size:14px; border:2px solid #ffffff; border-radius:50%;}
+.ntSocialIcons li a:hover {background:#b00093; border-color:#b00093;}
+.ntSocialIcons li a i {line-height:48px; font-size:22px;}
+
+.footer .social_blk.address {text-align:right;}
+.footer .social_blk.address p {line-height:24px;}
+.footer .social_blk.address p a {font-weight:700; color:#fff;}
+
+.footer .ft_bottom {width:100%; float:left; background:#000000; padding:20px 0;}
+.footer .ft_bottom address {display:block; text-align:center; color:#fff; font-size:13px; font-weight:400; letter-spacing:0.25px;}

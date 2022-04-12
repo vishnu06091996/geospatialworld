@@ -1,0 +1,92 @@
+/* PROGRAM ADVISORY PAGE CSS START HERE */
+
+.pab .col4 {margin:0 2%; width:29%;}
+
+.pab_blk {display:block; margin:0 0 30px; border-radius:5px; padding:15px;  box-shadow:0 1px 15px 1px rgba(52,40,104,.1); 
+background:#fff; cursor: pointer;}
+
+.pab_blk .pic {display:block; padding:0 0 15px;}
+.inner.advisory_board .pab_blk .pic img {width:100%; border-radius:5px;}
+
+.pab_blk .info {display:block;}
+.pab_blk .info h3 {font-weight:bold; text-transform:uppercase; display:block; font-size:16px; padding:0 0 5px; color:#b00093;}
+.pab_blk .info p {display:block; font-size:13px; color:#222; line-height:18px; padding:0;}
+
+.Model {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 70%);
+    z-index: 999;
+    display: none;
+}
+.Model.Open {
+    display: block;
+}
+.ModelScroll {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ModelIN {
+    max-width: 760px;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    position: absolute;
+    top: 50px;
+    text-align: center;
+}
+.closeMode {
+    position: absolute;
+    top: -15px;
+    right: -12px;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.ModelIN .pic {
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px auto 40px;
+}
+.ModelIN .info h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    font-size: 20px;
+    padding: 0 0 5px;
+    color: #b00093;
+}
+.ModelIN p {
+    display: block;
+    font-size: 16px;
+    color: #222;
+    line-height: 24px;
+    padding: 0;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+

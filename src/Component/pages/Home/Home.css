@@ -1,0 +1,156 @@
+/* ABOUT */
+
+.about_container {width:100%; float:left; background:#000000; padding:70px 0;}
+.about_container h2 {color:#c9ec48;}
+.about_container h2 em {color:#b00093;}
+.about_container p {color:#fff;}
+
+.about_container .owl-pagination {display:block; text-align:center; padding:25px 0 0 0;}
+.about_container .owl-pagination .owl-page {display:inline-block;}
+.about_container .owl-pagination .owl-page span {width:16px; height:16px; background:#7f7f7f; display:block; text-indent:-9999em; margin:0 5px; border-radius:50%;}
+.about_container .owl-pagination .owl-page.active span {background:#b00093;}
+
+.about_container .btn_blk {padding:20px 0 0;}
+.about_container .btn_blk a {min-width:250px; text-align:center;}
+.about_container .btn_blk a:first-child {margin:0 10px 0 0;}
+.Home_scn h4 {
+    display: block;
+    color: #b00093;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    padding: 0 0 10px;
+    margin: 0;
+}
+.about_container .btn_blk a {
+    border: 2px solid #b00093;
+}
+.about_container .btn_blk a:hover {
+    background: none;
+    color: #fff;
+    border: 2px solid #b00093;
+}
+
+/* TESTIMONIAL & FACTS */
+
+.testimonial_container {width:100%; float:left; background:#c9ec48; background-size:cover; padding:70px 0;}
+.testimonial_container h2 {text-align:center; padding:0 0 50px;}
+.testimonial_container h4 {text-align:center;}
+
+.testimonial_container .t_blk {display:block; border-right:1px solid #8aa031; padding:0 30px;} 
+
+.testimonial_container .t_blk .info {display:block; min-height:170px;}
+
+.testimonial_container .t_blk .designation {display:block; overflow:hidden;}
+.testimonial_container .t_blk .designation .pic {width:64px; float:left;}
+.testimonial_container .t_blk .designation .pic img {width:100%; border-radius:50%;}
+
+.testimonial_container .t_blk .designation .name {display:block; padding:10px 0 0 80px;}
+.testimonial_container .t_blk .designation .name strong {display:block; font-weight:700; font-size:20px; padding:0 0 5px; line-height: 20px;} 
+.testimonial_container .t_blk .designation .name span {display:block; font-size:15px; line-height: 20px; font-weight: 600;} 
+
+
+.testimonial_container button.slick-arrow.slick-prev {width:39px; height:70px; background:url("https://geospatialworldforum.org/images/left_arrow.png") no-repeat left top; position:absolute; left:-70px; top:50%; margin:-35px 0 0; text-indent:-9999em;}
+.testimonial_container button.slick-arrow.slick-next {width:39px; height:70px; background:url("https://geospatialworldforum.org/images/right_arrow.png") no-repeat left top; position:absolute; right:-40px; top:50%; margin:-35px 0 0; text-indent:-9999em;}
+.testimonial_container .slick-prev:before, 
+.testimonial_container .slick-prev:before, 
+.testimonial_container .slick-next:before, 
+.testimonial_container .slick-next:before {
+    opacity: 0 !important;
+}
+.slick-slide.slick-active .t_blk {
+    border: 0;
+}
+.testimonial_container .t_blk, .testimonial_container .slick-slide.slick-active.slick-current {
+    border-right: 1px solid #8aa031;
+}
+
+.testimonial_container .fact_blk {display:block; border-top:1px solid #8aa031; padding:50px 0 0; margin:50px 0 0;}
+.testimonial_container .fact_blk h2 {padding:0;}
+
+.testimonial_container .fb_num {display:block; text-align:center; padding:50px 0 0;}
+.testimonial_container .fb_num strong {display:block; font-size:70px; color:#b00093; font-weight:700; padding:0 0 15px;}
+.testimonial_container .fb_num span {display:block; font-weight:400; font-size:20px;}
+
+.testimonial_container .btn_blk {text-align:center;}
+.testimonial_container .btn_blk a {min-width:32%; margin:0 1% 10px; text-align:center; border: 2px solid #b00093;}
+.testimonial_container .btn_blk a:hover {
+    background: transparent;
+    color: #b00093;
+    border: 2px solid #b00093;
+}
+.testimonial_container h2 {
+    text-align: center;
+    padding: 0 0 50px;
+    display: block;
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.awardees_container .pic {
+    display: block;
+    margin: 0 0;
+}
+.slick-prev, .slick-next {
+    display: none !important;
+}
+.testimonial_container p {
+    display: block;
+    color: #000;
+    padding: 0 0 25px;
+    letter-spacing: 0.25px;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Home_scn .awards_container {
+    overflow: hidden;
+    clear: both;
+}
+.Home_scn .awards_container h2 {
+    display: block;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 0 30px;
+    text-align: center;
+}
+.awards_container {
+    width: 100%;
+    float: left;
+    background: url("https://geospatialworldforum.org/images/award_bg.jpg") no-repeat center #2e2c37;
+    background-size: cover;
+    padding: 70px 0;
+    text-align: center;
+}
+
+
+.MissedGWF2021_container h2 {
+    text-align: center;
+    font-size: 48px;
+}
+.partners_container h2 {
+    text-align: center;
+    display: block;
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 0 30px;
+}
+.partners_container .pc_com .bottom a {
+    margin: 10px 20px;
+}
+.MissedGWF2021_container .pc_com .top strong {
+    padding-bottom:5px;
+}
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+.Awards .Excellenceawards_scn {
+    clear: both;
+    padding-top: 50px;
+}
+.Awards .Banner .theme {
+    display: none !important;
+}
+.slick-slider {
+    margin:0 -15px;
+}
+.slick-slide {
+    margin-right:15px;
+    margin-left:15px;
+}
+.slick-track {
+    display: flex !important;
+}
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+    width: 16px;
+    height: 16px;
+    background: #7f7f7f;
+    display: block;
+    text-indent: -9999em;
+    margin: 0;
+    border-radius: 50%;
+    font-size: 0;
+}
+.slick-dots li button:before {
+    opacity: 0 !important;
+}
+.slick-dots li.slick-active  button {
+    background: #b00093;
+}
+.slick-dots {
+    position: static;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}

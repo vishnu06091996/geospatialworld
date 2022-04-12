@@ -1,0 +1,64 @@
+
+
+/* ==================== REGISTRATION FEE START ==================== */
+
+.registration table {margin:0 0 50px; }
+.registration table td {border-right:10px solid #fff; border-bottom:7px solid #fff;}
+.registration table td:last {border-right:none;}
+
+.registration table tr td strong {font-size:17px; font-weight:700; color:#fff; letter-spacing:1px; line-height:24px; padding:10px; display:block; 
+text-transform:uppercase;}
+.registration table tr td strong.cat {color:#222; text-transform:none; font-size:12px; font-weight:600; padding:5px 10px; letter-spacing:0.25px; line-height:20px;}
+.registration table tr td span {display:block; font-size:12px; line-height:18px; padding:5px 10px; letter-spacing:0.25px; color:#333; font-weight:500;}
+
+.registration table tr:first-child td {background:#eee;}
+.registration table tr:first-child td strong {font-size:12px; color:#222; padding:8px 10px; text-transform:none; letter-spacing:0px; 
+font-weight:600; line-height:20px;}
+
+.registration p.note {font-size:12px;}
+.registration p.note b {font-weight:700;}
+	
+.registration .rules {display:block;}
+.registration .rules strong {font-weight:700; padding:0 0 10px; display:block; font-size:15px;}
+.registration .rules ul {display:block; list-style:square; padding:0 0 30px 13px;}
+.registration .rules ul li {color:#333; line-height:24px; font-size:13px; letter-spacing:0.25px; list-style: inherit;}
+
+.inner.registration .btn_blk {display:block; text-align:right;}
+.inner.registration .btn_blk a {display:inline-block; background:#f64c72; padding:0 30px; line-height:38px; text-transform:uppercase; font-size:15px; font-weight:700; color:#fff; box-sizing:border-box; border:1px solid #f64c72; border-radius:25px; margin:0 0 0 10px;}
+.inner.registration .btn_blk a:hover {background:none; color:#f64c72;}
+
+.inner.registration .btn_blk a:last-child {background:#b00093; border:1px solid #b00093;}
+.inner.registration .btn_blk a:last-child:hover {background:none; color:#b00093;}
+
+.inner.registration .btn_blk.bottom {text-align:center; padding:20px 0 0;}
+.inner.registration .btn_blk.bottom {margin:0 5px;}
+
+.inner.registration .btn_blk.top.access {text-align:left; margin:0 0 30px;}
+.inner.registration .btn_blk.top.access a {margin:0 10px 0 0; padding:0 20px; line-height:30px; font-size:13px;}
+
+.registration table tr td strong.cat_reg {font-size: 17px; font-weight: 700; color: #fff; letter-spacing: 1px; line-height: 24px; padding: 10px; display: block; text-transform: uppercase; background: #b00093;}
+.registration table tr td:nth-child(2), .registration table tr td:nth-child(3), .registration table tr td:nth-child(4) {width: 15%;}
+.registration table tr td:nth-child(5) {width: 32%;}
+.registration table tr td:nth-child(1) {width: 17%;}
+.registration table tr td strong.cat_reg2 {background: #bbd535;}
+.registration table tr td strong.cat_reg3 {background: #292929;}
+.content_container h2 {
+    border-bottom: 0px dashed #000;
+    margin: 0;
+}
+.content_container h3.in-person {
+    text-align: left;
+    font-weight: normal;
+    font-size: 16px;
+    display: block;
+    padding: 10px 0;
+}
+.registration table tr td strong.cat_reg.ArcticlimeColor {
+    background: #bbd535;
+}
+.registration table tr td strong.cat_reg.BlackchocolateColor {
+    background: #292929;
+}
+.registration table tr td strong.cat_reg.BittersweetColor {
+    background: #e26a4c;
+}

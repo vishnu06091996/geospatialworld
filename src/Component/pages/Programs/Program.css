@@ -1,0 +1,46 @@
+.content_container .Pro_blk {
+    display: flex;
+    border: 2px solid #b00093;
+    margin: 0 0 5px;
+    height: 150px;
+    align-items: center;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.content_container .Pro_blk strong {
+    display: block;
+    width: 100%;
+    font-size: 22px;
+    text-align: center;
+    line-height: 27px;
+    font-weight: 500;
+    color: #000;
+}
+.content_container h2 {
+    margin: 0 0 35px;
+    padding-bottom: 0px;
+}
+.ProLogodv .ProLogo img {
+    max-width: 100%;
+}
+
+.body_container p.ProLogoTx { display: block; color: #000;  padding: 0 0 0px; letter-spacing: 0.25px;line-height: 19px; font-size: 15px;}
+.ProLogoBX {  width: 25%; text-align: center; padding: 10px; margin-bottom: 10px;}
+.ProLogodv { display: flex;  flex-wrap: wrap; margin: -10px -10px 0 -10px;}
+.ProLogoBX_in { transition: 0.5s all ease; display: block; cursor: pointer;}
+.ProLogoBX_in:hover { transform: translateY(-10px); transition: 0.5s all ease;}
+.ProLogodv .ProLogo{display: block; text-align: center; margin-bottom: 10px;}
+.ProLogodv .ProLogo img{display: inline-block; width: auto;}
+.align-items-center {  display: flex;     flex-wrap: wrap;}
+.proBorder {
+    border-bottom: 1px solid #424243;
+    padding-bottom: 20px;
+    margin-bottom: 36px;
+}
+.row:last-child .proBorder {
+    margin-bottom: 0;
+    padding: 0;
+    border: 0;
+}

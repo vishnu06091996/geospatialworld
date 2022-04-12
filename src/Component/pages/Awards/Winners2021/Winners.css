@@ -1,0 +1,38 @@
+.Winners2021Scn {
+    margin-top: 50px;
+}
+.content_container h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.tableDv table tr th, .tableDv table tr td {
+    font-size: 15px;
+    color: #000;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 15px;
+	text-align: left;
+}
+.tableDv table tr th{font-weight: 600;}
+.tableDv table tr th:nth-child(3) {
+    width: 33%;
+}
+.tableDv table tr th:nth-child(2) {
+    width: 33%;
+}
+.tableDv table tr th:nth-child(1) {
+    width: 34%;
+}
+.tableDv thead tr th {
+    background: #b00093;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+	font-size: 16px;
+}
+.tableDv table tr:nth-child(even) td {
+    background: #d3d3d3;
+}
+.tableDv table tr td {
+    background: #f2f3f3;
+}

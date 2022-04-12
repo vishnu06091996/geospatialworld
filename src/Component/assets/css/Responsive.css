@@ -1,0 +1,252 @@
+/* *********************************************************************************************************************
+	One% CSS Grid - 12 Columns Fluid CSS Grid System
+
+	Why One% ? Let’s count ...
+		we have 12 columns (magic number divided by 2, 3, 4, 6)
+
+		for 12 columns we need 11 margins
+
+		so if we count margin 3%, then 3% * 11 margins = 33%
+
+		and if we count width of 1 column 5.5%, than 5.5% * 12 columns = 66%
+
+		in the end we have 33% + 66% = 99% aaand ???
+
+		1% is still here so that's the name - One%
+
+	2 starting options ? Let’s count a bit more ...
+		1200px - perfectly fits 1280 screens
+			12 columns
+			margin 3% / 36px (full-width)
+			col1 5.5% / 66px (full-width)
+
+		1000px - perfectly fits 1024 screens
+			12 columns
+			margin 3% / 30px (full-width)
+			col1 5.5% / 55px (full-width)
+*/
+
+
+
+
+
+/* *********************************************************************************************************************
+ * Main container for all
+ */
+.main_wrapper {
+	margin: 0 auto;
+	padding: 0 0 0 1%; /* THAT'S THE NAME ;) */
+}
+
+.main_wrapper {
+	max-width:1180px;
+}
+
+.onerow {
+	clear: both;
+	padding: 0 10px;
+}
+
+
+
+
+
+/* *********************************************************************************************************************
+ * Common columns definitions
+ */
+.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12 {
+	float: left;
+	margin: 0 3% 0 0;
+}
+
+.col1.last, .col2.last, .col3.last, .col4.last, .col5.last, .col6.last, .col7.last, .col8.last, .col9.last, .col10.last, .col11.last, .col12 {
+	margin: 0;
+}
+
+.col1 { width: 5.5%; }
+.col2 { width: 14%; }
+.col3 { width: 22.5%; }
+.col4 { width: 31%; }
+.col5 { width: 39.5%; }
+.col6 { width: 48%; }
+.col7 { width: 56.5%; }
+.col8 { width: 65%; }
+.col9 { width: 73.5%; }
+.col10 { width: 82%; }
+.col11 { width: 90.5%; }
+.col12 { width: 99%; margin: 0; }
+
+.col1 img, .col2 img, .col3 img, .col4 img, .col5 img, .col6 img, .col7 img, .col8 img, .col9 img, .col10 img, .col11 img, .col12 img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+@media all and (max-width: 1366px) {
+	
+	.main_wrapper .onerow {padding:0;}
+	
+	.header .hd_bottom .logo img {max-width:400px;}
+	.header .hd_bottom .logo.theme {padding:0;}
+	.header .hd_bottom .dates {padding:0 0 50px;}
+	.header .hd_bottom .dates span {font-size:26px;}
+	
+	.header .block_container .tiles a strong {font-size:24px;}
+	
+	.testimonial_container .owl-controls .owl-buttons .owl-prev {left:-45px;}
+	
+	.archive_container .tiles a span {font-size:20px;}
+	
+	
+}
+
+/* *********************************************************************************************************************
+ * Disable padding left/right 10px if I'm 1024 or gibber - correct percentage math
+ */
+
+@media all and (max-width: 1024px) {
+	.main_wrapper {
+		max-width: 1010px;
+	}
+
+	.main_wrapper .onerow {
+		padding: 0;
+	}
+	
+	.header .hd_top .navigation ul li a {font-size:14px; padding:10px 15px;}
+	.about_container .btn_blk a:first-child {margin:0 0 10px;}
+	.testimonial_container .btn_blk a {margin:0 0.5%;}
+	
+	
+}
+
+/* *********************************************************************************************************************
+ * Small devices
+ */
+@media all and (max-width: 768px) 
+
+	{	
+		.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11 {float:none; width:99%;}
+		
+		.header .hd_top {display:none;}
+		
+		.slicknav_menu {display:block;}
+		
+		.slicknav_menu {display:block; position:absolute; left:30px; top:30px; z-index:10000;}
+		.slicknav_menu a.slicknav_btn {width:32px; height:32px; background:url(../images/menu_icon.png) no-repeat left top; 
+		text-indent:-9999em; display:block;}
+		.slicknav_menu .slicknav_nav {width:220px; background:#b00093; padding:10px 15px; margin:0; list-style:none; border-radius:3px;}
+		.slicknav_menu .slicknav_nav li {padding:0; position:relative; border-bottom:1px dashed #fff;}
+		.slicknav_menu .slicknav_nav li a {font-size:15px; color:#fff; text-transform:uppercase; font-weight:600; padding:0 10px; line-height:38px; display:block;}
+		.slicknav_menu .slicknav_nav li a:hover {color:#fff;}
+		.slicknav_menu .slicknav_nav li a a {padding:0;}
+		.slicknav_menu .slicknav_nav li a span.slicknav_arrow {position:absolute; right:0; top:-1px;}
+		.slicknav_menu .slicknav_nav li ul {list-style:none; padding-bottom:15px;}
+		.slicknav_menu .slicknav_nav li ul li {border:none;}
+		.slicknav_menu .slicknav_nav li ul li a {font-size:13px; line-height:28px; text-transform:none; border:1px dashed #fff; margin:5px 0; 
+		display:block; border-radius:3px;}
+		.slicknav_menu .slicknav_nav li.slicknav_open {border-bottom:0;}
+		.slicknav_menu .slicknav_nav li.slicknav_open ul {padding:0;}
+		
+		.header {height:auto;}
+		.header .inner {height:auto;}
+		.header .inner .outer {display:inherit; height:auto;}
+		
+		.header .hd_bottom {padding:50px;}
+		.header .block_container {float:left; position:inherit; left:inherit; bottom:inherit;}
+		.header .block_container .tiles {display:block; width:auto; float:none;}
+		.header .block_container .tiles:nth-child(2n) {width:auto;}
+		
+		.about_container {padding:30px 20px;}
+		
+		.about_container .info {display:block; text-align:center; padding:30px 0 0;}
+		.about_container .btn_blk a {display:block;}
+		.about_container .owl-pagination .owl-page span {width:10px; height:10px; margin:0 3px;}
+		
+		.testimonial_container {padding:30px 20px;}
+		.testimonial_container .t_blk {border-right:none; padding:0 50px; text-align:center;}
+		.testimonial_container .t_blk .info {min-height:inherit;}
+		.testimonial_container .t_blk .designation .pic {display:inline-block; float:none; vertical-align:middle;}
+		.testimonial_container .t_blk .designation .name {display:inline-block; text-align:left; padding:0 0 0 15px; vertical-align:middle;}
+		.testimonial_container .owl-controls .owl-buttons .owl-prev {left:0;}
+		.testimonial_container .owl-controls .owl-buttons .owl-next {right:0;}
+		
+		.discover_container {padding:30px 20px;}
+		.discover_container ul li {display:block; width:auto; margin:0 0 5px;}
+		
+		.awards_container {padding:30px 20px;}
+		.awards_container p {padding:0 0 50px;}
+		.awardees_container .owl-pagination .owl-page span {width:10px; height:10px; margin:0 3px;}
+		
+		.watch_container h2 {font-size:32px;}
+		
+		.awardees_container {padding:30px 20px;}
+		.testimonial_container .btn_blk a {display:block; width:auto; margin:0 0 10px;}
+		
+		.footer .ft_top {padding:30px 20px; text-align:center;}
+		.footer .ft_top .social_blk {padding:0 0 30px; margin:0 0 30px; border-bottom:1px solid rgba(255,255,255,0.3);}
+		.footer .ft_top .social_blk.address {text-align:center; border-bottom:none; border-top:1px solid rgba(255,255,255,0.3); padding:30px 0 0; margin:30px 0 0;}
+		
+		.footer .ft_bottom {padding:20px;}
+		
+		.inner .header .hd_bottom {padding:50px;}
+		
+		.why_exhibit .header .hd_bottom .logo {display: block; text-align: center; padding: 0 0 20px;}
+		.why_exhibit .header .hd_bottom .dates {text-align:center;}
+		.why_exhibit .header .header_com {text-align:center; padding:30px 0 0;} 
+		.why_exhibit .header .header_com h2 {text-align:center;}
+		
+		.exhibit_container {padding:30px 20px;}
+		.exhibit_container .price_blk {margin:0 0 30px;}
+		.exhibit_container .form_blk {margin:0 0 30px;}
+		
+		.inner .header .hd_bottom .logo {margin:0;}
+		
+		.inner .heading_container {padding:30px 20px;}
+		.inner .heading_container h1 {font-size:38px;}
+		
+		.program .about_container .info {padding:0;}
+		.inner .topic_container {padding:30px 20px;}
+		.inner .target_container {padding:30px 20px;} 
+		.inner .target_container ul {column-count:inherit;}
+		
+		.body_container h2 {font-size:28px;}
+		.inner.contact .con_info {margin: 0 0 0 0;}
+		.tableDv table tbody tr td:before {content: attr(data-th) ": "; font-weight: 600; width: 120px; display: inline-block; color: #000; position: absolute; left: 20px; top: 14px;}
+		.tableDv thead tr th {display: none;}
+		.tableDv table tr td {display: block; position: relative; padding-left: 120px;}
+		.Awards .header, .Awards .header .inner .outer, .about_scn .header, .about_scn .header .inner .outer {  height: auto; display: flex;}
+	}
+
+@media all and (max-width:640px) 
+
+	{
+		
+	}
+	
+@media all and (max-width:480px) 
+
+	{	
+		.header .hd_bottom .logo img {max-width:250px;}
+		.header .hd_bottom .dates {padding:0 0 30px;}
+		.header .hd_bottom .dates span {font-size:20px; letter-spacing:0;}
+		.footer .ft_bottom address {line-height:18px;}
+		
+		.slicknav_menu {left:15px; top:15px;}
+		
+		.why_exhibit .header .hd_bottom .logo img {max-width:250px;}
+		.why_exhibit .header .hd_bottom .dates {padding:0 0 30px;}
+		.why_exhibit .header .hd_bottom .dates span {font-size:20px;}
+	}
+	
+@media all and (max-width:360px) 
+
+	{
+		
+	}
+
+@media all and (max-width:320px) 
+
+	{
+		
+	}

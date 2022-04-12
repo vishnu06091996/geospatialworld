@@ -1,0 +1,67 @@
+.Awards .spotlight_container {
+    width: 100%;
+    float: left;
+    padding: 70px 0;
+    text-align: center;
+    background: #c9ec48;
+    background-size: cover;
+}
+.Awards .spotlight_container h3 {
+    text-align: center;
+    padding: 0 0 30px;
+    color: #000;
+    font-size: 28px;
+}
+.Awards .spotlight_container p {
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+    font-size: 17px;
+}
+.Awards .spotlight_container .logo {
+    display: inline-block;
+    padding: 0 10px 10px;
+}
+.Awards .spotlight_container .theme {
+    display: inline-block;
+    padding: 0 10px 10px;
+}
+.Awards .spotlight_container .theme img, .Awards .spotlight_container .logo img {
+    max-width: 250px;
+}
+.Awards .spotlight_container span {
+    display: block;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 28px;
+    color: #000;
+    letter-spacing: 0.25px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+}
+.Awards .spotlight_container span small {
+    font-weight: 400;
+}
+.Awards .aw_contact_container {
+    width: 100%;
+    float: left;
+    padding: 60px 0 60px;
+    background: #f2f3f3;
+    text-align: center;
+}
+.Awards .aw_contact_container h3 {
+    text-align: center;
+    padding: 0 0 30px;
+    font-size: 28px;
+}
+.Awards .aw_contact_container p {
+    font-weight: 600;
+    font-size: 17px;
+    padding: 0 0 10px;
+    text-transform: uppercase;
+}
+.Awards .aw_contact_container a {
+    display: inline-block;
+    font-weight: 600;
+    color: #b00093;
+}

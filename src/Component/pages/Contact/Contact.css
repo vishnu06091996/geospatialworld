@@ -1,0 +1,18 @@
+.con_info h3 { display: block; padding: 0 0 15px; font-weight: 700; color: #000; letter-spacing: 0.5px; font-size: 20px; line-height: 26px; text-transform: uppercase;}
+.contact .con_info { display: block; padding: 30px 0; border-bottom: 1px solid #b00093; margin: 0 0 30px; position: relative; margin: 0 50px 0 0;}
+.contact .con_info span { display: block; padding: 0 0 8px;  font-weight: 400; color: #000;  letter-spacing: 0.75px;  font-size: 16px; text-transform: uppercase;}
+.contact .con_info a { display: inline-block; font-size: 16px; font-weight:600; color: #000; letter-spacing: 0.25px;}
+.contact .con_info strong { display: block; padding: 0 0 15px; font-weight: 600; color: #b00093; letter-spacing: 0.5px; font-size: 20px; line-height: 26px; text-transform: uppercase;}
+.contact .con_info .com { display: block; margin: 0 0 20px; padding: 15px 20px; background: #f5f7f9; border-left: 3px solid #b00093;
+}
+.contact .con_info:last-child {border:none;}
+
+.contact .con_info .com {display:block; margin:0 0 20px; padding:15px 20px; background:#a6ca41;
+border-left:3px solid #b00093;}
+.contact .con_info .com p {padding:0 0 10px; color:#b00093; font-weight:700;}
+.contact .con_info .com:nth-child(even) {border-color:#a6ca41; background: #292929;}
+.contact .con_info .com:nth-child(even) p {color:#a6ca41;}
+.hd_3 { display: block; padding: 0 0 15px; font-weight: 600;  color: #373a95; letter-spacing: 0.5px; font-size: 20px; line-height: 26px; }
+.contact .con_info .com:nth-child(even) span, .contact .con_info .com:nth-child(even) a {
+    color: #fff;
+}
